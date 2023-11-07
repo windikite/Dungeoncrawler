@@ -1,0 +1,48 @@
+#gamewindow{
+    height:800px;
+    width:600px;
+    background-color: rgb(32, 34, 33);
+    position: relative;
+}
+#menu{
+    height:30px;
+    width:600px;
+    background-color: brown;
+    position: absolute;
+    bottom:200px;
+    left:0px;
+    display: flex;
+    justify-content: space-around;
+}
+#char-tray{
+    height:200px;
+    width:600px;
+    background-color: rgb(26, 27, 27);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#char-tray{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#char-tray img{
+    max-width: 150px;
+    object-position: contain;
+    border: 3px solid black;
+}
+#background{
+    max-width: 100%;
+}
+.btn{
+    height:26px;
+    width:100px;
+    background-color: beige;
+    border: 2px solid black;
+    text-align: center;
+}
+.btn:hover{
+    background-color: blue;
+    color: azure;
+}
